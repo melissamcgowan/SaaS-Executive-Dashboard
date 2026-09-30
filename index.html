@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SaaS Executive Dashboard</title>
+  <meta name="description" content="Interactive SaaS executive reporting dashboard with eight tabs, built on synthetic data.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <h1>SaaS Executive Dashboard</h1>
+      <div class="meta">Synthetic data &middot; Oct 2024 to Sep 2026 &middot; as of Sep 30, 2026</div>
+    </header>
+    <nav class="tabs" id="tabs" role="tablist" aria-label="Dashboard sections"></nav>
+    <main id="panels"></main>
+    <footer>
+      All figures are generated from a seeded random model for demonstration. Add <code>?seed=123</code> to the URL to see a different but repeatable dataset.
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
