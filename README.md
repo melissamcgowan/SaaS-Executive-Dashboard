@@ -4,6 +4,24 @@ An interactive executive reporting dashboard for a B2B SaaS business. Eight tabs
 
 It runs as a static web page with no build step and no backend. All data is synthetic.
 
+## Where this fits in the portfolio
+
+This project is the **company-level** view of a customer success portfolio. It answers "how is the business doing?" for the executive team.
+
+Its companion is the **account-level** Customer 360 Dashboard, which answers "how is this customer doing?" for the CSM. Together they cover the two questions a customer success leader has to answer every week.
+
+| | Executive Dashboard (this project) | Customer 360 Dashboard |
+|---|---|---|
+| **Level** | Whole company | Single account |
+| **Audience** | CEO, CFO, CRO, CCO | CSMs, CS leadership |
+| **Core question** | Is the business healthy and efficient? | What does this customer need from us now? |
+| **Typical metrics** | ARR, NRR, GRR, CAC payback, burn multiple, NPS | Health score, sentiment, renewal risk, expansion readiness, effort score |
+| **Drill path** | Segment, cohort, at-risk account list | Account detail, history, next best action |
+
+The at-risk account table on the Retention & Health tab is the bridge between the two. An executive sees at-risk ARR roll up to the company level, then opens the Customer 360 view for any named account to see why.
+
+Account-level outputs from the health score, renewal risk, and expansion projects can feed the company-level numbers here (see "Swapping in real data").
+
 ## What it shows
 
 | Tab | Reports |
