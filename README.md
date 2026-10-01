@@ -37,7 +37,7 @@ Account-level outputs from the health score, renewal risk, and expansion project
 
 ## Run it
 
-Open `index.html` in a browser. Charts load Chart.js from a CDN, so you need an internet connection.
+Open https://melissamcgowan.github.io/SaaS-Executive-Dashboard/ in a browser. Charts load Chart.js from a CDN, so you need an internet connection.
 
 To serve it locally:
 
